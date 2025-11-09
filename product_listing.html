@@ -1,94 +1,112 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-tF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products - MadX Clothing</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MadX Clothing — Products</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:,">
+  <meta name="description" content="All jackets by MadX Clothing">
+  <meta name="robots" content="noindex, follow">
+  <link rel="canonical" href="products.html">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">MadX</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html" class="active">Products</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="index.html">MadX</a>
+      <a class="cart-link" href="cart.html" aria-label="Cart" title="Cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 6h15l-1.5 9h-12L5 3H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="9" cy="20" r="1.5" fill="currentColor"/>
+          <circle cx="18" cy="20" r="1.5" fill="currentColor"/>
+        </svg>
+      </a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <div class="container">
-            <h2 class="section-title">All Jackets</h2>
-            
-            <div class="product-grid">
-                <div class="product-card">
-                    <a href="product-detail.html">
-                        <img src="https://via.placeholder.com/300x400?text=Phantom+Rider" alt="Phantom Rider Jacket">
-                    </a>
-                    <div class="product-card-info">
-                        <h3>Phantom Rider</h3>
-                        <p>$199.99</p>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <a href="product-detail.html">
-                        <img src="https://via.placeholder.com/300x400?text=Nova+Puffer" alt="Nova Puffer Jacket">
-                    </a>
-                    <div class="product-card-info">
-                        <h3>Nova Puffer</h3>
-                        <p>$149.99</p>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <a href="product-detail.html">
-                        <img src="https://via.placeholder.com/300x400?text=Stormguard+Shell" alt="Stormguard Shell Jacket">
-                    </a>
-                    <div class="product-card-info">
-                        <h3>Stormguard Shell</h3>
-                        <p>$179.99</p>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <a href="product-detail.html">
-                        <img src="https://via.placeholder.com/300x400?text=Urban+Bomber" alt="Urban Bomber Jacket">
-                    </a>
-                    <div class="product-card-info">
-                        <h3>Urban Bomber</h3>
-                        <p>$129.99</p>
-                    </div>
-                </div>
-                
-                <div class="product-card">
-                    <a href="product-detail.html">
-                        <img src="https://via.placeholder.com/300x400?text=Denim+Rebel" alt="Denim Rebel Jacket">
-                    </a>
-                    <div class="product-card-info">
-                        <h3>Denim Rebel</h3>
-                        <p>$99.99</p>
-                    </div>
-                </div>
+  <main>
+    <div class="container page-header">
+      <h1>All Jackets</h1>
+    </div>
 
-                <div class="product-card">
-                    <a href="product-detail.html">
-                        <img src="https://via.placeholder.com/300x400?text=Arctic+Parka" alt="Arctic Parka Jacket">
-                    </a>
-                    <div class="product-card-info">
-                        <h3>Arctic Parka</h3>
-                        <p>$249.99</p>
-                    </div>
-                </div>
+    <section class="section">
+      <div class="container">
+        <div class="grid products">
+          <a class="card" href="product-detail.html">
+            <img alt="Phantom Rider" src="https://via.placeholder.com/300x400?text=Phantom+Rider">
+            <div class="card-body">
+              <div class="card-title">Phantom Rider</div>
+              <div class="price">₹4,999</div>
             </div>
+          </a>
+          <a class="card" href="product-detail.html">
+            <img alt="Midnight Storm" src="https://via.placeholder.com/300x400?text=Midnight+Storm">
+            <div class="card-body">
+              <div class="card-title">Midnight Storm</div>
+              <div class="price">₹5,499</div>
+            </div>
+          </a>
+          <a class="card" href="product-detail.html">
+            <img alt="Neon Edge" src="https://via.placeholder.com/300x400?text=Neon+Edge">
+            <div class="card-body">
+              <div class="card-title">Neon Edge</div>
+              <div class="price">₹4,499</div>
+            </div>
+          </a>
+          <a class="card" href="product-detail.html">
+            <img alt="Apex Shield" src="https://via.placeholder.com/300x400?text=Apex+Shield">
+            <div class="card-body">
+              <div class="card-title">Apex Shield</div>
+              <div class="price">₹6,199</div>
+            </div>
+          </a>
+          <a class="card" href="product-detail.html">
+            <img alt="Urban Rogue" src="https://via.placeholder.com/300x400?text=Urban+Rogue">
+            <div class="card-body">
+              <div class="card-title">Urban Rogue</div>
+              <div class="price">₹3,999</div>
+            </div>
+          </a>
+          <a class="card" href="product-detail.html">
+            <img alt="Glacier Guard" src="https://via.placeholder.com/300x400?text=Glacier+Guard">
+            <div class="card-body">
+              <div class="card-title">Glacier Guard</div>
+              <div class="price">₹5,899</div>
+            </div>
+          </a>
+          <a class="card" href="product-detail.html">
+            <img alt="Volt Surge" src="https://via.placeholder.com/300x400?text=Volt+Surge">
+            <div class="card-body">
+              <div class="card-title">Volt Surge</div>
+              <div class="price">₹4,299</div>
+            </div>
+          </a>
+          <a class="card" href="product-detail.html">
+            <img alt="Shadow Flux" src="https://via.placeholder.com/300x400?text=Shadow+Flux">
+            <div class="card-body">
+              <div class="card-title">Shadow Flux</div>
+              <div class="price">₹4,799</div>
+            </div>
+          </a>
         </div>
-    </main>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 MadX Clothing. Project for Newton School.</p>
-    </footer>
+  <footer>
+    <div class="footer-inner container">
+      <div>© 2025 MadX Clothing. All rights reserved.</div>
+    </div>
+  </footer>
 </body>
 </html>
+
+
