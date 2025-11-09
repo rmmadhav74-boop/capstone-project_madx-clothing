@@ -1,43 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
-    <title>Product Detail - MadX Clothing</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MadX Clothing — Phantom Rider Jacket</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:,">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">MadX</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="products.html" class="active">Products</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="index.html">MadX</a>
+      <a class="cart-link" href="cart.html" aria-label="Cart" title="Cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 6h15l-1.5 9h-12L5 3H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="9" cy="20" r="1.5" fill="currentColor"/>
+          <circle cx="18" cy="20" r="1.5" fill="currentColor"/>
+        </svg>
+      </a>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a class="active" href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <main>
-        <div class="container">
-            <div class="product-detail">
-                <div class="product-image">
-                    <img src="https://via.placeholder.com/600x800?text=Phantom+Rider" alt="Phantom Rider Jacket">
-                </div>
-                <div class="product-info">
-                    <h1>Phantom Rider Jacket</h1>
-                    <p class="price">$199.99</p>
-                    <p>This is the Phantom Rider, crafted from 100% genuine leather with a distressed finish. It features asymmetrical zip, multiple pockets, and a quilted lining for comfort. The perfect jacket for a bold statement.</p>
-                    <p>Phase 2 (JavaScript) will make this button show a message!</p>
-                    <a href="#" class="btn">Add to Cart</a>
-                </div>
-            </div>
+  <main>
+    <section class="section">
+      <div class="container detail-layout">
+        <div>
+          <img alt="Phantom Rider Jacket" src="https://via.placeholder.com/600x800?text=Jacket+Detail">
         </div>
-    </main>
+        <div class="detail-info">
+          <h2>Phantom Rider Jacket</h2>
+          <div class="detail-price">₹4,999</div>
+          <p>Engineered for movement and built for the night. The Phantom Rider combines a water-resistant shell with breathable lining and reflective trim for an unmistakable profile. Designed to keep you sharp in the rain and fearless in the wind.</p>
+          <a class="btn" href="#">Add to Cart</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-        <p>&copy; 2025 MadX Clothing. Project for Newton School.</p>
-    </footer>
+  <footer>
+    <div class="footer-inner container">
+      <div>© 2025 MadX Clothing. All rights reserved.</div>
+    </div>
+  </footer>
 </body>
 </html>
+
+
