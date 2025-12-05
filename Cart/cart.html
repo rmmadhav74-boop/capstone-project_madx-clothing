@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadX | Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-left">
+            <a href="index.html" class="logo">MadX clothing</a>
+            <a href="cart.html" class="cart-icon">CART</a>
+        </div>
+        <nav class="nav-right">
+            <a href="product_listing.html">CATALOG</a>
+            <a href="product_detail.html">DETAIL</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <div style="max-width: 800px; margin: 50px auto; min-height: 40vh;">
+        <h1 class="section-title">Your Cart</h1>
+        
+        <div style="background: #111; padding: 20px; border: 1px solid #333; margin-bottom: 20px;">
+            <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #333; padding-bottom: 20px;">
+                <div style="display: flex; gap: 20px; align-items: center;">
+                    <img src="https://cyber-techwear.com/cdn/shop/files/bomber-jacket-cyberpunk-tiger-dragon_3_97d75d59-f3a9-48d0-8b11-e4f6703c6fba.jpg?v=1757572736" style="width: 80px; height: 80px; object-fit: cover;">
+                    <div>
+                        <h3>The Cyber Bomber</h3>
+                        <p>Size: L</p>
+                    </div>
+                </div>
+                <h3>₹ 7,999</h3>
+            </div>
+        </div>
+
+        <div style="text-align: right;">
+            <h2>Total: ₹ 7,999</h2>
+            <button onclick="alert('Proceeding to Checkout...')">Checkout</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <h2 onclick="window.location.href='index.html'">MadX</h2>
+            <div class="contact-info">
+                <p>Store Location: Bikaner, Rajasthan</p>
+                <p>Phone: 7597710533</p>
+                <p>Email: madxhelp74@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+    </footer>
+
+        <script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadX | Detail</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="product_detail.css">
+</head>
+<body>
+
+    <header>
+        <div class="nav-left">
+            <a href="index.html" class="logo">MadX clothing</a>
+            <a href="cart.html" class="cart-icon">CART</a>
+        </div>
+        <nav class="nav-right">
+            <a href="product_listing.html">CATALOG</a>
+            <a href="product_detail.html">DETAIL</a>
+            <a href="about.html">ABOUT</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+    </header>
+
+    <section class="detail-container">
+        <div class="detail-img">
+            <img src="https://cyber-techwear.com/cdn/shop/files/bomber-jacket-cyberpunk-tiger-dragon_3_97d75d59-f3a9-48d0-8b11-e4f6703c6fba.jpg?v=1757572736" alt="Cyber Bomber">
+        </div>
+        <div class="detail-info">
+            <h1>The Cyber Bomber</h1>
+            <h2>₹ 7,999</h2>
+            <p>Designed for the streets of Bikaner and beyond. This jacket blends traditional embroidery with futuristic neon fabrics. Water-resistant, breathable, and absolutely fire. 
+            <br><br>
+            <strong>Fabric:</strong> 100% Synthetic Neon-Weave<br>
+            <strong>Origin:</strong> Handcrafted in India</p>
+            
+            <div class="form-group">
+                <label style="color: #00f3ff; font-weight: bold;">Size:</label>
+                <select id="sizeSelector">
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                    <option>XL</option>
+                </select>
+            </div>
+
+            <button onclick="addToCartMain()">Add To Cart</button>
+        </div>
+    </section>
+
+    <section class="more-drops">
+        <h2>More From The Drop</h2>
+        <div class="grid-layout" id="related-products">
+            </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h2 onclick="window.location.href='index.html'">MadX</h2>
+            <div class="contact-info">
+                <p>Store Location: Bikaner, Rajasthan</p>
+                <p>Phone: 7597710533</p>
+                <p>Email: madxhelp74@gmail.com</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="product_detail.js"></script>
+
+</body>
+</html>

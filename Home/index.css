@@ -1,0 +1,8 @@
+/* Page-specific styles for index.html */
+/* This file is intentionally left light; global styles are in style.css */
+
+/* Add index-only overrides below */
+
+.dynamic-logo {
+    /* keep dynamic-logo sizing here if you want page-specific tweaks */
+}
